@@ -6,7 +6,7 @@ metadata:
   name: osd-pod-killer
 spec:
   containers:
-    - image: quay.io/bzhai/osd-pod-killer:1.0
+    - image: quay.io/rhn_support_cback/osd-pod-killer
       name: osd-pod-killer
       command:
         - /kill.sh
